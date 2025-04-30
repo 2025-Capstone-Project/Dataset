@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['pc_normal', 'pc_abnormal']
+
+roboflow:
+  workspace: thermal-fvtg7
+  project: capstone_test-tlkd6
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/thermal-fvtg7/capstone_test-tlkd6/1
