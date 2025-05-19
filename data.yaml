@@ -3,7 +3,7 @@ val: ../valid/images
 test: ../test/images
 
 nc: 2
-names: ['pc_normal', 'pc_abnormal']
+names: ['pc_abnormal', 'pc_normal']
 
 roboflow:
   workspace: thermal-fvtg7
